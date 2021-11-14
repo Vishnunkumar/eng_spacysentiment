@@ -14,7 +14,7 @@ unzip spacysentiment.zip
 
 ```python
 import spacy
-nlp = spacy.load("models/spacysentiment/")
+nlp = spacy.load("spacysentiment")
 input_text = input()
 doc = nlp(input_text)
 doc.cats
