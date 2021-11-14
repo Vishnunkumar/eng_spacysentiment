@@ -27,3 +27,5 @@ docs.cats = {'positive': 0.29878824949264526, 'negative': 0.7012117505073547}
 ```
 
 - [__Data Source__](https://archive.ics.uci.edu/ml/datasets/Sentiment+Labelled+Sentences) - UCI sentiment labelled sentences data, I used imbd part of data to train the model
+
+- __Training__ : To train your own model please refer to [notebook](spacy-sentiment.ipynb)
