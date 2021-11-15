@@ -3,6 +3,33 @@ sentiment analysis using spacy
 
 ## Implementation
 
+### Method - 1
+
+
+- __Install the package using below command__
+
+```
+pip install eng-spacysentiment
+```
+
+- __Implement the below code to get sentiment using spacy__
+
+```python
+import eng_spacysentiment
+nlp = eng_spacysentiment.load()
+text4 = "Welcome to Arsenal's official YouTube channel Watch as we take you closer and show you the personality of the club."
+doc = nlp(text4)
+doc.cats
+```
+
+- __Result__
+```
+input_text =  Its completely useless mate, we can do it the way we want
+docs.cats = {'positive': 0.29878824949264526, 'negative': 0.7012117505073547}
+```
+
+### Method - 2
+
 - __Clone the repository to your local__
 
 ```
@@ -13,7 +40,7 @@ unzip spacysentiment.zip
 - __Implement the below code to get sentiment using spacy__
 
 ```python
-import spacy
+import eng
 nlp = spacy.load("spacysentiment")
 input_text = input()
 doc = nlp(input_text)
@@ -25,6 +52,7 @@ doc.cats
 input_text =  Its completely useless mate, we can do it the way we want
 docs.cats = {'positive': 0.29878824949264526, 'negative': 0.7012117505073547}
 ```
+
 
 - [__Data Source__](https://archive.ics.uci.edu/ml/datasets/Sentiment+Labelled+Sentences) - UCI sentiment labelled sentences data, I used imbd part of data to train the model
 
