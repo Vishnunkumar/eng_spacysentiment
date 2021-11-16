@@ -11,6 +11,7 @@ sentiment analysis using spacy
 ```
 pip install eng-spacysentiment
 ```
+- [PyPi](https://pypi.org/project/eng-spacysentiment/)
 
 - __Implement the below code to get sentiment using spacy__
 
