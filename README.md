@@ -31,10 +31,12 @@ docs.cats = {'positive': 0.29878824949264526, 'negative': 0.7012117505073547}
 
 - __Benchmarks__
 
+The following metrics are generated from 300 randomly selected tagged sentences from [Emotion](https://www.kaggle.com/sankha1998/emotion) dataset, kindly take note that happy has been mapped as positive, while sad and angry has been mapped as negative.
+
 | MODEL          | F1-score                           |
 | -----          | ---------------------------------- |
-| SpacySentiment | 0.95 |
-| VaderSentiment | 0.72 |
+| SpacySentiment | 0.65 |
+| VaderSentiment | 0.68 |
 | TextBlob       | 0.70                              |
 
 ### Method - 2
