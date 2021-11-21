@@ -1,5 +1,5 @@
-# spacysentiment
-sentiment analysis using spacy
+# eng_spacysentiment
+Sentiment analysis of simple english sentences using spacy
 
 ## Implementation
 
