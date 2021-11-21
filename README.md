@@ -1,5 +1,5 @@
 # eng_spacysentiment
-Sentiment analysis of simple english sentences using spacy
+Sentiment analysis of simple english sentences using @spaCy pipelines
 
 ## Implementation
 
