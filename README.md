@@ -18,8 +18,8 @@ pip install eng-spacysentiment
 ```python
 import eng_spacysentiment
 nlp = eng_spacysentiment.load()
-text4 = "Welcome to Arsenal's official YouTube channel Watch as we take you closer and show you the personality of the club."
-doc = nlp(text4)
+text = "Welcome to Arsenal's official YouTube channel Watch as we take you closer and show you the personality of the club."
+doc = nlp(text)
 doc.cats
 ```
 
